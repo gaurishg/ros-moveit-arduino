@@ -10,7 +10,7 @@ RUN apt-get install -y terminator ros-noetic-ros-controllers ros-noetic-gazebo-r
 
 RUN apt-get install -y python3-pip
 
-RUN python3 -m pip install flask flask-ask-sdk ask-sdk pre-commit
+RUN python3 -m pip install flask flask-ask-sdk ask-sdk pre-commit catkin_tools
 
 RUN mkdir tmp/ngrok-download && cd /tmp/ngrok-download && wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 
