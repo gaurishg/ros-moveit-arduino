@@ -7,8 +7,11 @@
       },
       "includePath": [
         "/opt/ros/noetic/include/**",
+        "/opt/ros/noetic/include",
         "/home/rosnoetic/arduinobot_ws/src/arduinobot_test/include/**",
-        "/usr/include/**"
+        "/home/rosnoetic/arduinobot_ws/src/arduinobot_test/include",
+        "/usr/include/**",
+        "/usr/include"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
