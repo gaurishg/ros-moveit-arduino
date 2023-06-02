@@ -3,5 +3,12 @@
     "python.analysis.inlayHints.callArgumentNames": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
-    "python.analysis.inlayHints.variableTypes": true
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "editor.rulers": [110, 120]
 }

@@ -29,7 +29,7 @@ skip_gitignore = true
 
 [tool.flake8]
 max-line-length = 120
-# extend-ignore = ["D203", "E203", "E251", "E266", "E302", "E305", "E401", "E402", "E501", "F401", "F403", "W503"]
+extend-ignore = ["D100", "D103", "D203", "E203", "E251", "E266", "E302", "E305", "E401", "E402", "E501", "F401", "F403", "I201", "W503", "Q000"]
 exclude = [".git", "__pycache__", "dist"]
 max-complexity = 10
 
@@ -47,6 +47,9 @@ defineConstant = { DEBUG = true }
 
 reportMissingImports = true
 reportMissingTypeStubs = false
+reportUnknownMemberType = "none"
+reportUnusedImport = "information"
+reportUnusedVariable = "warning"
 
 pythonVersion = "3.8"
 pythonPlatform = "Linux"
