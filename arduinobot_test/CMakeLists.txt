@@ -135,6 +135,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/arduinobot_test_node.cpp)
 add_executable(simple_cpp_publisher src/simple_publisher.cpp)
+add_executable(simple_cpp_subscriber src/simple_subscriber.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -151,6 +152,7 @@ add_executable(simple_cpp_publisher src/simple_publisher.cpp)
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(simple_cpp_publisher ${catkin_LIBRARIES})
+target_link_libraries(simple_cpp_subscriber ${catkin_LIBRARIES})
 
 #############
 ## Install ##
